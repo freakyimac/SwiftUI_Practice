@@ -12,7 +12,13 @@ struct ContentView: View {
         Text("iOS")
             .font(.system(size: 180))
             .fontWeight(.black)
-            .foregroundStyle(.teal.gradient)
+            .foregroundStyle(
+                .linearGradient(
+                    colors: [.pink, .purple, .blue],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            )
     }
 }
 
