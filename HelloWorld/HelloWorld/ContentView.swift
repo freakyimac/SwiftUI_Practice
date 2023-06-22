@@ -31,13 +31,28 @@ struct ContentView: View {
         // MARK: - 2. Scale
 //        AsyncImage(url: URL(string: imageURL), scale: 3)
         // MARK: - 3. Placeholder
-        AsyncImage(url: URL(string: imageURL)) { image in
-            image.imageModifier()
-        } placeholder: {
-            Image(systemName: "photo.circle.fill")
-                .iconModifier()
-        }
-        .padding(40)
+        /*
+         AsyncImage(url: URL(string: imageURL)) { image in
+             image.imageModifier()
+         } placeholder: {
+             Image(systemName: "photo.circle.fill")
+                 .iconModifier()
+         }
+         .padding(40)
+         */
+       // MARK: - 4. Phase
+        AsyncImage(url: URL(string: imageURL)) { phase in
+            // success
+            if let image = phase.image {
+                image.imageModifier()
+                // failure
+            } else if phase.error != nil {
+                Image(systemName: "ant.circle.fill").iconModifier()
+                // empty
+            } else {
+                Image(systemName: "photo.circle.fill").iconModifier()
+            }
+        }.padding(40)
     }
 }
 
