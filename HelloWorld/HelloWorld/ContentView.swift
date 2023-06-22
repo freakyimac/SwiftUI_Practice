@@ -8,17 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    private let imageURL: String = "https://credo.academy/credo-academy@3x.png"
+    
     var body: some View {
-        Text("iOS")
-            .font(.system(size: 180))
-            .fontWeight(.black)
-            .foregroundStyle(
-                .linearGradient(
-                    colors: [.pink, .purple, .blue],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-            )
+        // MARK: - 1. Basic
+        AsyncImage(url: URL(string: imageURL))
     }
 }
 
