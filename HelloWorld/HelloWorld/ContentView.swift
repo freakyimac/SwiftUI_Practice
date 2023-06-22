@@ -41,16 +41,35 @@ struct ContentView: View {
          .padding(40)
          */
        // MARK: - 4. Phase
-        AsyncImage(url: URL(string: imageURL)) { phase in
-            // success
-            if let image = phase.image {
-                image.imageModifier()
-                // failure
-            } else if phase.error != nil {
+        /*
+         AsyncImage(url: URL(string: imageURL)) { phase in
+             // success
+             if let image = phase.image {
+                 image.imageModifier()
+                 // failure
+             } else if phase.error != nil {
+                 Image(systemName: "ant.circle.fill").iconModifier()
+                 // empty
+             } else {
+                 Image(systemName: "photo.circle.fill").iconModifier()
+             }
+         }.padding(40)
+         */
+        // MARK: - 5. Animation
+        AsyncImage(url: URL(string: imageURL), transaction: Transaction(animation: .spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0.25))) { phase in
+            switch phase {
+            case .success(let image):
+                image
+                    .imageModifier()
+//                    .transition(.move(edge: .bottom))
+//                    .transition(.slide)
+                    .transition(.scale)
+            case .failure:
                 Image(systemName: "ant.circle.fill").iconModifier()
-                // empty
-            } else {
+            case .empty:
                 Image(systemName: "photo.circle.fill").iconModifier()
+            @unknown default:
+                ProgressView()
             }
         }.padding(40)
     }
