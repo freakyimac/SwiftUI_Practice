@@ -40,9 +40,7 @@ struct HomeView: View {
             // MARK: - Footer
             Spacer()
             Button {
-                withAnimation {
-                    isOnboardingViewActive = true
-                }
+                isOnboardingViewActive = true
             } label: {
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
                     .imageScale(.large)
