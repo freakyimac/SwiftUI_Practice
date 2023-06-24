@@ -41,6 +41,7 @@ struct HomeView: View {
             Spacer()
             Button {
                 isOnboardingViewActive = true
+                playSound(sound: "success", type: "m4a")
             } label: {
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
                     .imageScale(.large)

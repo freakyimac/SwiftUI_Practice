@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF4744C12A468DDD004000BC /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C02A468DDD004000BC /* CircleGroupView.swift */; };
+		DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C22A4704CE004000BC /* AudioPlayer.swift */; };
 		DF51F9882A44A5E400AE6AFE /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51F9872A44A5E400AE6AFE /* HelloWorldApp.swift */; };
 		DF51F98A2A44A5E400AE6AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51F9892A44A5E400AE6AFE /* ContentView.swift */; };
 		DF51F98C2A44A5E400AE6AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF51F98B2A44A5E400AE6AFE /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		DF4744C02A468DDD004000BC /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		DF4744C22A4704CE004000BC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DF51F9842A44A5E400AE6AFE /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF51F9872A44A5E400AE6AFE /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
 		DF51F9892A44A5E400AE6AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		DF51F9C12A44BC0500AE6AFE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				DF4744C22A4704CE004000BC /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				DF51F9C82A44BE8400AE6AFE /* HomeView.swift in Sources */,
 				DF51F9B02A44B6D600AE6AFE /* ContentView.swift in Sources */,
 				DF51F9AE2A44B6D600AE6AFE /* RestartApp.swift in Sources */,
+				DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
