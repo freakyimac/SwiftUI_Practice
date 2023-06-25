@@ -37,6 +37,7 @@
 		DFE431DF2A4879AE00CBC596 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431DE2A4879AE00CBC596 /* CustomBackgroundView.swift */; };
 		DFE431E22A487AD200CBC596 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E12A487AD200CBC596 /* ColorExtension.swift */; };
 		DFE431E42A48806F00CBC596 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E32A48806F00CBC596 /* CustomButtonView.swift */; };
+		DFE431E62A4884BA00CBC596 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E52A4884BA00CBC596 /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		DFE431DE2A4879AE00CBC596 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		DFE431E12A487AD200CBC596 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		DFE431E32A48806F00CBC596 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		DFE431E52A4884BA00CBC596 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,14 +268,12 @@
 		DFE431CE2A48766C00CBC596 /* Hiking */ = {
 			isa = PBXGroup;
 			children = (
+				DFE431DD2A48799700CBC596 /* Component */,
 				DFE431E02A487AB500CBC596 /* Utility */,
+				DFE431D52A48766D00CBC596 /* Preview Content */,
 				DFE431CF2A48766C00CBC596 /* HikingApp.swift */,
 				DFE431D12A48766C00CBC596 /* ContentView.swift */,
-				DFE431DB2A4878EB00CBC596 /* CardView.swift */,
-				DFE431E32A48806F00CBC596 /* CustomButtonView.swift */,
-				DFE431DD2A48799700CBC596 /* Component */,
 				DFE431D32A48766D00CBC596 /* Assets.xcassets */,
-				DFE431D52A48766D00CBC596 /* Preview Content */,
 			);
 			path = Hiking;
 			sourceTree = "<group>";
@@ -289,7 +289,9 @@
 		DFE431DD2A48799700CBC596 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				DFE431DB2A4878EB00CBC596 /* CardView.swift */,
 				DFE431DE2A4879AE00CBC596 /* CustomBackgroundView.swift */,
+				DFE431E32A48806F00CBC596 /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				DFE431E12A487AD200CBC596 /* ColorExtension.swift */,
+				DFE431E52A4884BA00CBC596 /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -503,6 +506,7 @@
 				DFE431DC2A4878EB00CBC596 /* CardView.swift in Sources */,
 				DFE431D02A48766C00CBC596 /* HikingApp.swift in Sources */,
 				DFE431E42A48806F00CBC596 /* CustomButtonView.swift in Sources */,
+				DFE431E62A4884BA00CBC596 /* GradientButtonStyle.swift in Sources */,
 				DFE431DF2A4879AE00CBC596 /* CustomBackgroundView.swift in Sources */,
 				DFE431E22A487AD200CBC596 /* ColorExtension.swift in Sources */,
 			);
