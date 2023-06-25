@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF08BA922A48516F009A6991 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08BA912A48516F009A6991 /* InfoPanelView.swift */; };
 		DF4744C12A468DDD004000BC /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C02A468DDD004000BC /* CircleGroupView.swift */; };
 		DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C22A4704CE004000BC /* AudioPlayer.swift */; };
 		DF4744CB2A476673004000BC /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744CA2A476673004000BC /* PinchApp.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF08BA912A48516F009A6991 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 		DF4744C02A468DDD004000BC /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		DF4744C22A4704CE004000BC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DF4744C82A476673004000BC /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				DF4744D82A47694C004000BC /* Model */,
 				DF4744D62A476902004000BC /* View */,
 				DF4744D72A47692E004000BC /* Screen */,
+				DF4744CA2A476673004000BC /* PinchApp.swift */,
 				DF4744CE2A476675004000BC /* Assets.xcassets */,
 				DF4744D02A476675004000BC /* Preview Content */,
 			);
@@ -101,7 +104,7 @@
 		DF4744D62A476902004000BC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DF4744CA2A476673004000BC /* PinchApp.swift */,
+				DF08BA912A48516F009A6991 /* InfoPanelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			files = (
 				DF4744CD2A476673004000BC /* ContentView.swift in Sources */,
 				DF4744CB2A476673004000BC /* PinchApp.swift in Sources */,
+				DF08BA922A48516F009A6991 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
