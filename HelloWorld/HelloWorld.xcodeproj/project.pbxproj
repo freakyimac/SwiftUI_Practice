@@ -36,6 +36,7 @@
 		DFE431DC2A4878EB00CBC596 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431DB2A4878EB00CBC596 /* CardView.swift */; };
 		DFE431DF2A4879AE00CBC596 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431DE2A4879AE00CBC596 /* CustomBackgroundView.swift */; };
 		DFE431E22A487AD200CBC596 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E12A487AD200CBC596 /* ColorExtension.swift */; };
+		DFE431E42A48806F00CBC596 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E32A48806F00CBC596 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		DFE431DB2A4878EB00CBC596 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DFE431DE2A4879AE00CBC596 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		DFE431E12A487AD200CBC596 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		DFE431E32A48806F00CBC596 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 				DFE431CF2A48766C00CBC596 /* HikingApp.swift */,
 				DFE431D12A48766C00CBC596 /* ContentView.swift */,
 				DFE431DB2A4878EB00CBC596 /* CardView.swift */,
+				DFE431E32A48806F00CBC596 /* CustomButtonView.swift */,
 				DFE431DD2A48799700CBC596 /* Component */,
 				DFE431D32A48766D00CBC596 /* Assets.xcassets */,
 				DFE431D52A48766D00CBC596 /* Preview Content */,
@@ -499,6 +502,7 @@
 				DFE431D22A48766C00CBC596 /* ContentView.swift in Sources */,
 				DFE431DC2A4878EB00CBC596 /* CardView.swift in Sources */,
 				DFE431D02A48766C00CBC596 /* HikingApp.swift in Sources */,
+				DFE431E42A48806F00CBC596 /* CustomButtonView.swift in Sources */,
 				DFE431DF2A4879AE00CBC596 /* CustomBackgroundView.swift in Sources */,
 				DFE431E22A487AD200CBC596 /* ColorExtension.swift in Sources */,
 			);

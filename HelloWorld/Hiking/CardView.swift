@@ -12,26 +12,66 @@ struct CardView: View {
         // MARK: - Card
         ZStack {
             CustomBackgroundView()
-            ZStack {
-                
-                Circle()
-                    .fill(
-                        LinearGradient(
-                            colors: [
-                                Color("ColorIndigoMedium"),
-                                Color("ColorSalmonLight")
-                            ],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
+            
+            VStack {
+                // MARK: - Header
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("Hiking")
+                            .fontWeight(.black)
+                            .font(.system(size: 52))
+                            .foregroundStyle(
+                                .linearGradient(
+                                    colors: [
+                                        .customGrayLight,
+                                        .customGrayMedium
+                                    ],
+                                    startPoint: .top,
+                                    endPoint: .bottom
+                                )
                         )
-                    )
-                    .frame(width: 256)
+                        
+                        Spacer()
+                        
+                        Button {
+                            // Show a sheet
+                            print("the button was pressed")
+                        } label: {
+                            CustomButtonView()
+                        }
+
+                    }
+
+                    Text("Fun and enjoyable outdoor activity for friends and families")
+                        .multilineTextAlignment(.leading)
+                        .italic()
+                        .foregroundColor(.customGrayMedium)
+
+                } // header
+                .padding(.horizontal, 30)
                 
-                Image("image-1")
-                    .resizable()
-                    .scaledToFit()
-                
+                // MARK: - Main Content
+                ZStack {
+                    Circle()
+                        .fill(
+                            LinearGradient(
+                                colors: [
+                                    Color("ColorIndigoMedium"),
+                                    Color("ColorSalmonLight")
+                                ],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                        .frame(width: 256)
+                    
+                    Image("image-1")
+                        .resizable()
+                        .scaledToFit()
+                    
+                }
             }
+            // MARK: - Footer
         } // Card
         .frame(width: 320, height: 570)
     }
