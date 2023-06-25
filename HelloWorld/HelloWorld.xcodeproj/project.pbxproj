@@ -29,6 +29,10 @@
 		DF51F9BC2A44BA6B00AE6AFE /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF51F9BA2A44BA6B00AE6AFE /* chimeup.mp3 */; };
 		DF51F9C62A44BE7C00AE6AFE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51F9C52A44BE7C00AE6AFE /* OnboardingView.swift */; };
 		DF51F9C82A44BE8400AE6AFE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51F9C72A44BE8400AE6AFE /* HomeView.swift */; };
+		DFE431D02A48766C00CBC596 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431CF2A48766C00CBC596 /* HikingApp.swift */; };
+		DFE431D22A48766C00CBC596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431D12A48766C00CBC596 /* ContentView.swift */; };
+		DFE431D42A48766D00CBC596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE431D32A48766D00CBC596 /* Assets.xcassets */; };
+		DFE431D72A48766D00CBC596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE431D62A48766D00CBC596 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,11 @@
 		DF51F9C22A44BDE800AE6AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DF51F9C52A44BE7C00AE6AFE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DF51F9C72A44BE8400AE6AFE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DFE431CD2A48766C00CBC596 /* Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE431CF2A48766C00CBC596 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
+		DFE431D12A48766C00CBC596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFE431D32A48766D00CBC596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE431D62A48766D00CBC596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DF51F9A82A44B6D600AE6AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE431CA2A48766C00CBC596 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,6 +162,7 @@
 				DF51F9862A44A5E400AE6AFE /* HelloWorld */,
 				DF51F9AC2A44B6D600AE6AFE /* Restart */,
 				DF4744C92A476673004000BC /* Pinch */,
+				DFE431CE2A48766C00CBC596 /* Hiking */,
 				DF51F9852A44A5E400AE6AFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,6 +173,7 @@
 				DF51F9842A44A5E400AE6AFE /* HelloWorld.app */,
 				DF51F9AB2A44B6D600AE6AFE /* Restart.app */,
 				DF4744C82A476673004000BC /* Pinch.app */,
+				DFE431CD2A48766C00CBC596 /* Hiking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,6 +255,25 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		DFE431CE2A48766C00CBC596 /* Hiking */ = {
+			isa = PBXGroup;
+			children = (
+				DFE431CF2A48766C00CBC596 /* HikingApp.swift */,
+				DFE431D12A48766C00CBC596 /* ContentView.swift */,
+				DFE431D32A48766D00CBC596 /* Assets.xcassets */,
+				DFE431D52A48766D00CBC596 /* Preview Content */,
+			);
+			path = Hiking;
+			sourceTree = "<group>";
+		};
+		DFE431D52A48766D00CBC596 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFE431D62A48766D00CBC596 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -291,6 +328,23 @@
 			productReference = DF51F9AB2A44B6D600AE6AFE /* Restart.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DFE431CC2A48766C00CBC596 /* Hiking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE431DA2A48766D00CBC596 /* Build configuration list for PBXNativeTarget "Hiking" */;
+			buildPhases = (
+				DFE431C92A48766C00CBC596 /* Sources */,
+				DFE431CA2A48766C00CBC596 /* Frameworks */,
+				DFE431CB2A48766C00CBC596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hiking;
+			productName = Hiking;
+			productReference = DFE431CD2A48766C00CBC596 /* Hiking.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -308,6 +362,9 @@
 						CreatedOnToolsVersion = 14.1;
 					};
 					DF51F9AA2A44B6D600AE6AFE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					DFE431CC2A48766C00CBC596 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -328,6 +385,7 @@
 				DF51F9832A44A5E400AE6AFE /* HelloWorld */,
 				DF51F9AA2A44B6D600AE6AFE /* Restart */,
 				DF4744C72A476673004000BC /* Pinch */,
+				DFE431CC2A48766C00CBC596 /* Hiking */,
 			);
 		};
 /* End PBXProject section */
@@ -359,6 +417,15 @@
 				DF51F9B52A44B6D700AE6AFE /* Preview Assets.xcassets in Resources */,
 				DF51F9BB2A44BA6B00AE6AFE /* success.m4a in Resources */,
 				DF51F9B22A44B6D700AE6AFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE431CB2A48766C00CBC596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE431D72A48766D00CBC596 /* Preview Assets.xcassets in Resources */,
+				DFE431D42A48766D00CBC596 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +464,15 @@
 				DF51F9B02A44B6D600AE6AFE /* ContentView.swift in Sources */,
 				DF51F9AE2A44B6D600AE6AFE /* RestartApp.swift in Sources */,
 				DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE431C92A48766C00CBC596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE431D22A48766C00CBC596 /* ContentView.swift in Sources */,
+				DFE431D02A48766C00CBC596 /* HikingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,6 +769,64 @@
 			};
 			name = Release;
 		};
+		DFE431D82A48766D00CBC596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiking/Preview Content\"";
+				DEVELOPMENT_TEAM = S8BG7546AB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.freakyimac.chopper.Hiking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE431D92A48766D00CBC596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiking/Preview Content\"";
+				DEVELOPMENT_TEAM = S8BG7546AB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.freakyimac.chopper.Hiking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -728,6 +862,15 @@
 			buildConfigurations = (
 				DF51F9B72A44B6D700AE6AFE /* Debug */,
 				DF51F9B82A44B6D700AE6AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE431DA2A48766D00CBC596 /* Build configuration list for PBXNativeTarget "Hiking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE431D82A48766D00CBC596 /* Debug */,
+				DFE431D92A48766D00CBC596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
