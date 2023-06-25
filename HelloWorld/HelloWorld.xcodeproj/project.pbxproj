@@ -40,6 +40,10 @@
 		DFE431E62A4884BA00CBC596 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E52A4884BA00CBC596 /* GradientButtonStyle.swift */; };
 		DFE431E82A488BEA00CBC596 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E72A488BEA00CBC596 /* CustomCircleView.swift */; };
 		DFE431EA2A488D6400CBC596 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431E92A488D6400CBC596 /* MotionAnimationView.swift */; };
+		DFE431F22A48946B00CBC596 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431F12A48946B00CBC596 /* FructusApp.swift */; };
+		DFE431F42A48946B00CBC596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431F32A48946B00CBC596 /* ContentView.swift */; };
+		DFE431F62A48946D00CBC596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE431F52A48946D00CBC596 /* Assets.xcassets */; };
+		DFE431F92A48946D00CBC596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE431F82A48946D00CBC596 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +85,11 @@
 		DFE431E52A4884BA00CBC596 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		DFE431E72A488BEA00CBC596 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		DFE431E92A488D6400CBC596 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		DFE431EF2A48946B00CBC596 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE431F12A48946B00CBC596 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
+		DFE431F32A48946B00CBC596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFE431F52A48946D00CBC596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE431F82A48946D00CBC596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +115,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DFE431CA2A48766C00CBC596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE431EC2A48946B00CBC596 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,6 +193,7 @@
 				DF51F9AC2A44B6D600AE6AFE /* Restart */,
 				DF4744C92A476673004000BC /* Pinch */,
 				DFE431CE2A48766C00CBC596 /* Hiking */,
+				DFE431F02A48946B00CBC596 /* Fructus */,
 				DF51F9852A44A5E400AE6AFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,6 +205,7 @@
 				DF51F9AB2A44B6D600AE6AFE /* Restart.app */,
 				DF4744C82A476673004000BC /* Pinch.app */,
 				DFE431CD2A48766C00CBC596 /* Hiking.app */,
+				DFE431EF2A48946B00CBC596 /* Fructus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -311,6 +329,25 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		DFE431F02A48946B00CBC596 /* Fructus */ = {
+			isa = PBXGroup;
+			children = (
+				DFE431F12A48946B00CBC596 /* FructusApp.swift */,
+				DFE431F32A48946B00CBC596 /* ContentView.swift */,
+				DFE431F52A48946D00CBC596 /* Assets.xcassets */,
+				DFE431F72A48946D00CBC596 /* Preview Content */,
+			);
+			path = Fructus;
+			sourceTree = "<group>";
+		};
+		DFE431F72A48946D00CBC596 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFE431F82A48946D00CBC596 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -382,6 +419,23 @@
 			productReference = DFE431CD2A48766C00CBC596 /* Hiking.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DFE431EE2A48946B00CBC596 /* Fructus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE431FA2A48946D00CBC596 /* Build configuration list for PBXNativeTarget "Fructus" */;
+			buildPhases = (
+				DFE431EB2A48946B00CBC596 /* Sources */,
+				DFE431EC2A48946B00CBC596 /* Frameworks */,
+				DFE431ED2A48946B00CBC596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fructus;
+			productName = Fructus;
+			productReference = DFE431EF2A48946B00CBC596 /* Fructus.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -404,6 +458,9 @@
 					DFE431CC2A48766C00CBC596 = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					DFE431EE2A48946B00CBC596 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = DF51F97F2A44A5E400AE6AFE /* Build configuration list for PBXProject "HelloWorld" */;
@@ -423,6 +480,7 @@
 				DF51F9AA2A44B6D600AE6AFE /* Restart */,
 				DF4744C72A476673004000BC /* Pinch */,
 				DFE431CC2A48766C00CBC596 /* Hiking */,
+				DFE431EE2A48946B00CBC596 /* Fructus */,
 			);
 		};
 /* End PBXProject section */
@@ -463,6 +521,15 @@
 			files = (
 				DFE431D72A48766D00CBC596 /* Preview Assets.xcassets in Resources */,
 				DFE431D42A48766D00CBC596 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE431ED2A48946B00CBC596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE431F92A48946D00CBC596 /* Preview Assets.xcassets in Resources */,
+				DFE431F62A48946D00CBC596 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +584,15 @@
 				DFE431EA2A488D6400CBC596 /* MotionAnimationView.swift in Sources */,
 				DFE431DF2A4879AE00CBC596 /* CustomBackgroundView.swift in Sources */,
 				DFE431E22A487AD200CBC596 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE431EB2A48946B00CBC596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE431F42A48946B00CBC596 /* ContentView.swift in Sources */,
+				DFE431F22A48946B00CBC596 /* FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -871,6 +947,64 @@
 			};
 			name = Release;
 		};
+		DFE431FB2A48946D00CBC596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
+				DEVELOPMENT_TEAM = S8BG7546AB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.freakyimac.chopper.Fructus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFE431FC2A48946D00CBC596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fructus/Preview Content\"";
+				DEVELOPMENT_TEAM = S8BG7546AB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.freakyimac.chopper.Fructus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -915,6 +1049,15 @@
 			buildConfigurations = (
 				DFE431D82A48766D00CBC596 /* Debug */,
 				DFE431D92A48766D00CBC596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE431FA2A48946D00CBC596 /* Build configuration list for PBXNativeTarget "Fructus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE431FB2A48946D00CBC596 /* Debug */,
+				DFE431FC2A48946D00CBC596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
