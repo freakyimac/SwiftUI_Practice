@@ -32,6 +32,8 @@
 		DF6265012A4B2FD5006C5E06 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265002A4B2FD5006C5E06 /* FruitHeaderView.swift */; };
 		DF6265032A4B31E8006C5E06 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265022A4B31E8006C5E06 /* SourceLinkView.swift */; };
 		DF6265072A4B38DA006C5E06 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265062A4B38DA006C5E06 /* FruitNutrientsView.swift */; };
+		DF6265092A4B39B8006C5E06 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265082A4B39B8006C5E06 /* SettingsView.swift */; };
+		DF62650B2A4B3EDB006C5E06 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62650A2A4B3EDB006C5E06 /* SettingsLabelView.swift */; };
 		DFE431D02A48766C00CBC596 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431CF2A48766C00CBC596 /* HikingApp.swift */; };
 		DFE431D22A48766C00CBC596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431D12A48766C00CBC596 /* ContentView.swift */; };
 		DFE431D42A48766D00CBC596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE431D32A48766D00CBC596 /* Assets.xcassets */; };
@@ -86,6 +88,8 @@
 		DF6265002A4B2FD5006C5E06 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		DF6265022A4B31E8006C5E06 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		DF6265062A4B38DA006C5E06 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		DF6265082A4B39B8006C5E06 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DF62650A2A4B3EDB006C5E06 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		DFE431CD2A48766C00CBC596 /* Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE431CF2A48766C00CBC596 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		DFE431D12A48766C00CBC596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -377,6 +381,7 @@
 				DFE431F32A48946B00CBC596 /* ContentView.swift */,
 				DFE432032A49D50000CBC596 /* OnboardingView.swift */,
 				DFE4320D2A49E2BF00CBC596 /* FruitDetailView.swift */,
+				DF6265082A4B39B8006C5E06 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 				DF6265002A4B2FD5006C5E06 /* FruitHeaderView.swift */,
 				DF6265022A4B31E8006C5E06 /* SourceLinkView.swift */,
 				DF6265062A4B38DA006C5E06 /* FruitNutrientsView.swift */,
+				DF62650A2A4B3EDB006C5E06 /* SettingsLabelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -663,8 +669,10 @@
 				DFE431F42A48946B00CBC596 /* ContentView.swift in Sources */,
 				DF6265012A4B2FD5006C5E06 /* FruitHeaderView.swift in Sources */,
 				DFE432042A49D50000CBC596 /* OnboardingView.swift in Sources */,
+				DF62650B2A4B3EDB006C5E06 /* SettingsLabelView.swift in Sources */,
 				DFE432072A49D6AC00CBC596 /* FruitModel.swift in Sources */,
 				DFE431F22A48946B00CBC596 /* FructusApp.swift in Sources */,
+				DF6265092A4B39B8006C5E06 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
