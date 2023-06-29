@@ -36,6 +36,8 @@
 		DF191CE22A4DD76700AA3AE5 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CE12A4DD76700AA3AE5 /* CoverImageView.swift */; };
 		DF191CE52A4DD9F700AA3AE5 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CE42A4DD9F700AA3AE5 /* CoverImageModel.swift */; };
 		DF191CE82A4DDB3500AA3AE5 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CE72A4DDB3500AA3AE5 /* CodableBundleExtension.swift */; };
+		DF191CEA2A4DDF4700AA3AE5 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CE92A4DDF4700AA3AE5 /* AnimalListItemView.swift */; };
+		DF191CEC2A4DE0D700AA3AE5 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CEB2A4DE0D700AA3AE5 /* AnimalModel.swift */; };
 		DF4744C12A468DDD004000BC /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C02A468DDD004000BC /* CircleGroupView.swift */; };
 		DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C22A4704CE004000BC /* AudioPlayer.swift */; };
 		DF4744CB2A476673004000BC /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744CA2A476673004000BC /* PinchApp.swift */; };
@@ -116,6 +118,8 @@
 		DF191CE12A4DD76700AA3AE5 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		DF191CE42A4DD9F700AA3AE5 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		DF191CE72A4DDB3500AA3AE5 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		DF191CE92A4DDF4700AA3AE5 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		DF191CEB2A4DE0D700AA3AE5 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		DF4744C02A468DDD004000BC /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		DF4744C22A4704CE004000BC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DF4744C82A476673004000BC /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				DF191CE12A4DD76700AA3AE5 /* CoverImageView.swift */,
+				DF191CE92A4DDF4700AA3AE5 /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				DF191CE42A4DD9F700AA3AE5 /* CoverImageModel.swift */,
+				DF191CEB2A4DE0D700AA3AE5 /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -806,9 +812,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF191CAE2A4C890000AA3AE5 /* ContentView.swift in Sources */,
+				DF191CEA2A4DDF4700AA3AE5 /* AnimalListItemView.swift in Sources */,
 				DF191CDF2A4DD57000AA3AE5 /* MainView.swift in Sources */,
 				DF191CE22A4DD76700AA3AE5 /* CoverImageView.swift in Sources */,
 				DF191CE52A4DD9F700AA3AE5 /* CoverImageModel.swift in Sources */,
+				DF191CEC2A4DE0D700AA3AE5 /* AnimalModel.swift in Sources */,
 				DF191CDB2A4DD55800AA3AE5 /* MapView.swift in Sources */,
 				DF191CAC2A4C890000AA3AE5 /* AfricaApp.swift in Sources */,
 				DF191CD92A4DD54200AA3AE5 /* VideoListView.swift in Sources */,
