@@ -33,6 +33,9 @@
 		DF191CDB2A4DD55800AA3AE5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CDA2A4DD55800AA3AE5 /* MapView.swift */; };
 		DF191CDD2A4DD56400AA3AE5 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CDC2A4DD56400AA3AE5 /* GalleryView.swift */; };
 		DF191CDF2A4DD57000AA3AE5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CDE2A4DD57000AA3AE5 /* MainView.swift */; };
+		DF191CE22A4DD76700AA3AE5 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CE12A4DD76700AA3AE5 /* CoverImageView.swift */; };
+		DF191CE52A4DD9F700AA3AE5 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CE42A4DD9F700AA3AE5 /* CoverImageModel.swift */; };
+		DF191CE82A4DDB3500AA3AE5 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF191CE72A4DDB3500AA3AE5 /* CodableBundleExtension.swift */; };
 		DF4744C12A468DDD004000BC /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C02A468DDD004000BC /* CircleGroupView.swift */; };
 		DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C22A4704CE004000BC /* AudioPlayer.swift */; };
 		DF4744CB2A476673004000BC /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744CA2A476673004000BC /* PinchApp.swift */; };
@@ -110,6 +113,9 @@
 		DF191CDA2A4DD55800AA3AE5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		DF191CDC2A4DD56400AA3AE5 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		DF191CDE2A4DD57000AA3AE5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DF191CE12A4DD76700AA3AE5 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		DF191CE42A4DD9F700AA3AE5 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		DF191CE72A4DDB3500AA3AE5 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		DF4744C02A468DDD004000BC /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		DF4744C22A4704CE004000BC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DF4744C82A476673004000BC /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,10 +219,13 @@
 		DF191CAA2A4C890000AA3AE5 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
-				DF191CD62A4DD41D00AA3AE5 /* Info.plist */,
+				DF191CE62A4DDB1B00AA3AE5 /* Extension */,
+				DF191CE32A4DD9EB00AA3AE5 /* Model */,
+				DF191CE02A4DD75300AA3AE5 /* View */,
 				DF191CCD2A4DD2A600AA3AE5 /* Data */,
 				DF191CB82A4DD25900AA3AE5 /* Video */,
 				DF191CD72A4DD4DC00AA3AE5 /* App */,
+				DF191CD62A4DD41D00AA3AE5 /* Info.plist */,
 				DF191CAF2A4C890200AA3AE5 /* Assets.xcassets */,
 				DF191CB12A4C890200AA3AE5 /* Preview Content */,
 			);
@@ -270,6 +279,30 @@
 				DF191CDE2A4DD57000AA3AE5 /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		DF191CE02A4DD75300AA3AE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF191CE12A4DD76700AA3AE5 /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF191CE32A4DD9EB00AA3AE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF191CE42A4DD9F700AA3AE5 /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF191CE62A4DDB1B00AA3AE5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF191CE72A4DDB3500AA3AE5 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		DF4744C92A476673004000BC /* Pinch */ = {
@@ -774,10 +807,13 @@
 			files = (
 				DF191CAE2A4C890000AA3AE5 /* ContentView.swift in Sources */,
 				DF191CDF2A4DD57000AA3AE5 /* MainView.swift in Sources */,
+				DF191CE22A4DD76700AA3AE5 /* CoverImageView.swift in Sources */,
+				DF191CE52A4DD9F700AA3AE5 /* CoverImageModel.swift in Sources */,
 				DF191CDB2A4DD55800AA3AE5 /* MapView.swift in Sources */,
 				DF191CAC2A4C890000AA3AE5 /* AfricaApp.swift in Sources */,
 				DF191CD92A4DD54200AA3AE5 /* VideoListView.swift in Sources */,
 				DF191CDD2A4DD56400AA3AE5 /* GalleryView.swift in Sources */,
+				DF191CE82A4DDB3500AA3AE5 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
