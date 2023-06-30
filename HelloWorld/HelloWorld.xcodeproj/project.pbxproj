@@ -59,6 +59,9 @@
 		DF51F9BC2A44BA6B00AE6AFE /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF51F9BA2A44BA6B00AE6AFE /* chimeup.mp3 */; };
 		DF51F9C62A44BE7C00AE6AFE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51F9C52A44BE7C00AE6AFE /* OnboardingView.swift */; };
 		DF51F9C82A44BE8400AE6AFE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51F9C72A44BE8400AE6AFE /* HomeView.swift */; };
+		DF5B2DD72A4F1F7F002AF2EC /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B2DD62A4F1F7F002AF2EC /* InsetFactView.swift */; };
+		DF5B2DDB2A4F219F002AF2EC /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B2DDA2A4F219F002AF2EC /* InsetMapView.swift */; };
+		DF5B2DDD2A4F2443002AF2EC /* ExternelWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B2DDC2A4F2443002AF2EC /* ExternelWeblinkView.swift */; };
 		DF6265012A4B2FD5006C5E06 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265002A4B2FD5006C5E06 /* FruitHeaderView.swift */; };
 		DF6265032A4B31E8006C5E06 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265022A4B31E8006C5E06 /* SourceLinkView.swift */; };
 		DF6265072A4B38DA006C5E06 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265062A4B38DA006C5E06 /* FruitNutrientsView.swift */; };
@@ -148,6 +151,9 @@
 		DF51F9C22A44BDE800AE6AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DF51F9C52A44BE7C00AE6AFE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DF51F9C72A44BE8400AE6AFE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF5B2DD62A4F1F7F002AF2EC /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		DF5B2DDA2A4F219F002AF2EC /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		DF5B2DDC2A4F2443002AF2EC /* ExternelWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternelWeblinkView.swift; sourceTree = "<group>"; };
 		DF6265002A4B2FD5006C5E06 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		DF6265022A4B31E8006C5E06 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		DF6265062A4B38DA006C5E06 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
@@ -297,6 +303,9 @@
 				DF191CE12A4DD76700AA3AE5 /* CoverImageView.swift */,
 				DF191CE92A4DDF4700AA3AE5 /* AnimalListItemView.swift */,
 				DF191CEE2A4DE86000AA3AE5 /* AnimaDetailView.swift */,
+				DF5B2DDC2A4F2443002AF2EC /* ExternelWeblinkView.swift */,
+				DF5B2DDA2A4F219F002AF2EC /* InsetMapView.swift */,
+				DF5B2DD62A4F1F7F002AF2EC /* InsetFactView.swift */,
 				DF191CF02A4DEA8100AA3AE5 /* HeadingView.swift */,
 				DF191CF22A4DEBAB00AA3AE5 /* InsetGalleryView.swift */,
 			);
@@ -823,11 +832,14 @@
 				DF191CAE2A4C890000AA3AE5 /* ContentView.swift in Sources */,
 				DF191CEA2A4DDF4700AA3AE5 /* AnimalListItemView.swift in Sources */,
 				DF191CDF2A4DD57000AA3AE5 /* MainView.swift in Sources */,
+				DF5B2DD72A4F1F7F002AF2EC /* InsetFactView.swift in Sources */,
 				DF191CE22A4DD76700AA3AE5 /* CoverImageView.swift in Sources */,
 				DF191CEF2A4DE86000AA3AE5 /* AnimaDetailView.swift in Sources */,
 				DF191CE52A4DD9F700AA3AE5 /* CoverImageModel.swift in Sources */,
 				DF191CEC2A4DE0D700AA3AE5 /* AnimalModel.swift in Sources */,
 				DF191CDB2A4DD55800AA3AE5 /* MapView.swift in Sources */,
+				DF5B2DDB2A4F219F002AF2EC /* InsetMapView.swift in Sources */,
+				DF5B2DDD2A4F2443002AF2EC /* ExternelWeblinkView.swift in Sources */,
 				DF191CAC2A4C890000AA3AE5 /* AfricaApp.swift in Sources */,
 				DF191CD92A4DD54200AA3AE5 /* VideoListView.swift in Sources */,
 				DF191CDD2A4DD56400AA3AE5 /* GalleryView.swift in Sources */,
