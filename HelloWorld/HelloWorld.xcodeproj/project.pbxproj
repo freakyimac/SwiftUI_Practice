@@ -66,6 +66,7 @@
 		DF5B2DE12A5019F1002AF2EC /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B2DE02A5019F1002AF2EC /* VideoListItemView.swift */; };
 		DF5B2DE32A502206002AF2EC /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B2DE22A502206002AF2EC /* VideoPlayerView.swift */; };
 		DF5B2DE62A5022F5002AF2EC /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B2DE52A5022F5002AF2EC /* VideoPlayerHelper.swift */; };
+		DF5B2DE82A502750002AF2EC /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5B2DE72A502750002AF2EC /* LocationModel.swift */; };
 		DF6265012A4B2FD5006C5E06 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265002A4B2FD5006C5E06 /* FruitHeaderView.swift */; };
 		DF6265032A4B31E8006C5E06 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265022A4B31E8006C5E06 /* SourceLinkView.swift */; };
 		DF6265072A4B38DA006C5E06 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6265062A4B38DA006C5E06 /* FruitNutrientsView.swift */; };
@@ -162,6 +163,7 @@
 		DF5B2DE02A5019F1002AF2EC /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		DF5B2DE22A502206002AF2EC /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		DF5B2DE52A5022F5002AF2EC /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		DF5B2DE72A502750002AF2EC /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		DF6265002A4B2FD5006C5E06 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		DF6265022A4B31E8006C5E06 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		DF6265062A4B38DA006C5E06 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 				DF191CE42A4DD9F700AA3AE5 /* CoverImageModel.swift */,
 				DF191CEB2A4DE0D700AA3AE5 /* AnimalModel.swift */,
 				DF5B2DDE2A501985002AF2EC /* VideoModel.swift */,
+				DF5B2DE72A502750002AF2EC /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -865,6 +868,7 @@
 				DF191CD92A4DD54200AA3AE5 /* VideoListView.swift in Sources */,
 				DF5B2DDF2A501985002AF2EC /* VideoModel.swift in Sources */,
 				DF191CDD2A4DD56400AA3AE5 /* GalleryView.swift in Sources */,
+				DF5B2DE82A502750002AF2EC /* LocationModel.swift in Sources */,
 				DF191CF32A4DEBAB00AA3AE5 /* InsetGalleryView.swift in Sources */,
 				DF5B2DE12A5019F1002AF2EC /* VideoListItemView.swift in Sources */,
 				DF191CE82A4DDB3500AA3AE5 /* CodableBundleExtension.swift in Sources */,
