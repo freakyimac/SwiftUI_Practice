@@ -92,6 +92,10 @@
 		DFE133E22A518F1B002A44C0 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133E12A518F1B002A44C0 /* FooterView.swift */; };
 		DFE133E42A5191AA002A44C0 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133E32A5191AA002A44C0 /* NavigationBarView.swift */; };
 		DFE133E62A519289002A44C0 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133E52A519289002A44C0 /* LogoView.swift */; };
+		DFE133E82A51970D002A44C0 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133E72A51970D002A44C0 /* PlayerModel.swift */; };
+		DFE133EA2A51973A002A44C0 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133E92A51973A002A44C0 /* CodableBundleExtension.swift */; };
+		DFE133EC2A519848002A44C0 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133EB2A519848002A44C0 /* FeaturedItemView.swift */; };
+		DFE133EE2A5198AB002A44C0 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133ED2A5198AB002A44C0 /* FeaturedTabView.swift */; };
 		DFE431D02A48766C00CBC596 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431CF2A48766C00CBC596 /* HikingApp.swift */; };
 		DFE431D22A48766C00CBC596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431D12A48766C00CBC596 /* ContentView.swift */; };
 		DFE431D42A48766D00CBC596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE431D32A48766D00CBC596 /* Assets.xcassets */; };
@@ -235,6 +239,10 @@
 		DFE133E12A518F1B002A44C0 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		DFE133E32A5191AA002A44C0 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		DFE133E52A519289002A44C0 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		DFE133E72A51970D002A44C0 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		DFE133E92A51973A002A44C0 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		DFE133EB2A519848002A44C0 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		DFE133ED2A5198AB002A44C0 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		DFE431CD2A48766C00CBC596 /* Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE431CF2A48766C00CBC596 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		DFE431D12A48766C00CBC596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -674,6 +682,8 @@
 				DFE133E12A518F1B002A44C0 /* FooterView.swift */,
 				DFE133E32A5191AA002A44C0 /* NavigationBarView.swift */,
 				DFE133E52A519289002A44C0 /* LogoView.swift */,
+				DFE133EB2A519848002A44C0 /* FeaturedItemView.swift */,
+				DFE133ED2A5198AB002A44C0 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -681,6 +691,7 @@
 		DFE133DC2A518E3F002A44C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DFE133E72A51970D002A44C0 /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -688,6 +699,7 @@
 		DFE133DD2A518E41002A44C0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DFE133E92A51973A002A44C0 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -1174,12 +1186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE133EA2A51973A002A44C0 /* CodableBundleExtension.swift in Sources */,
 				DFE133C52A518C88002A44C0 /* ContentView.swift in Sources */,
 				DFE133E62A519289002A44C0 /* LogoView.swift in Sources */,
 				DFE133E22A518F1B002A44C0 /* FooterView.swift in Sources */,
+				DFE133EC2A519848002A44C0 /* FeaturedItemView.swift in Sources */,
 				DFE133C32A518C88002A44C0 /* TouchDownApp.swift in Sources */,
 				DFE133E02A518E7C002A44C0 /* Constant.swift in Sources */,
 				DFE133E42A5191AA002A44C0 /* NavigationBarView.swift in Sources */,
+				DFE133EE2A5198AB002A44C0 /* FeaturedTabView.swift in Sources */,
+				DFE133E82A51970D002A44C0 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
