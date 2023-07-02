@@ -100,6 +100,9 @@
 		DFE133F22A51B238002A44C0 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133F12A51B238002A44C0 /* CategoryItemView.swift */; };
 		DFE133F42A51B376002A44C0 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133F32A51B376002A44C0 /* CategoryGridView.swift */; };
 		DFE133F62A51B4ED002A44C0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133F52A51B4ED002A44C0 /* SectionView.swift */; };
+		DFE133F82A51B791002A44C0 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133F72A51B791002A44C0 /* TitleView.swift */; };
+		DFE133FA2A51B856002A44C0 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133F92A51B856002A44C0 /* ProductModel.swift */; };
+		DFE133FC2A51B89B002A44C0 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE133FB2A51B89B002A44C0 /* ProductItemView.swift */; };
 		DFE431D02A48766C00CBC596 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431CF2A48766C00CBC596 /* HikingApp.swift */; };
 		DFE431D22A48766C00CBC596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE431D12A48766C00CBC596 /* ContentView.swift */; };
 		DFE431D42A48766D00CBC596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE431D32A48766D00CBC596 /* Assets.xcassets */; };
@@ -251,6 +254,9 @@
 		DFE133F12A51B238002A44C0 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		DFE133F32A51B376002A44C0 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		DFE133F52A51B4ED002A44C0 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		DFE133F72A51B791002A44C0 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DFE133F92A51B856002A44C0 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		DFE133FB2A51B89B002A44C0 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		DFE431CD2A48766C00CBC596 /* Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE431CF2A48766C00CBC596 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		DFE431D12A48766C00CBC596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -695,6 +701,8 @@
 				DFE133F12A51B238002A44C0 /* CategoryItemView.swift */,
 				DFE133F32A51B376002A44C0 /* CategoryGridView.swift */,
 				DFE133F52A51B4ED002A44C0 /* SectionView.swift */,
+				DFE133F72A51B791002A44C0 /* TitleView.swift */,
+				DFE133FB2A51B89B002A44C0 /* ProductItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -704,6 +712,7 @@
 			children = (
 				DFE133E72A51970D002A44C0 /* PlayerModel.swift */,
 				DFE133EF2A51B14A002A44C0 /* CategoryModel.swift */,
+				DFE133F92A51B856002A44C0 /* ProductModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1203,6 +1212,7 @@
 				DFE133E62A519289002A44C0 /* LogoView.swift in Sources */,
 				DFE133E22A518F1B002A44C0 /* FooterView.swift in Sources */,
 				DFE133EC2A519848002A44C0 /* FeaturedItemView.swift in Sources */,
+				DFE133FC2A51B89B002A44C0 /* ProductItemView.swift in Sources */,
 				DFE133C32A518C88002A44C0 /* TouchDownApp.swift in Sources */,
 				DFE133E02A518E7C002A44C0 /* Constant.swift in Sources */,
 				DFE133F42A51B376002A44C0 /* CategoryGridView.swift in Sources */,
@@ -1212,6 +1222,8 @@
 				DFE133F22A51B238002A44C0 /* CategoryItemView.swift in Sources */,
 				DFE133EE2A5198AB002A44C0 /* FeaturedTabView.swift in Sources */,
 				DFE133E82A51970D002A44C0 /* PlayerModel.swift in Sources */,
+				DFE133F82A51B791002A44C0 /* TitleView.swift in Sources */,
+				DFE133FA2A51B856002A44C0 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
