@@ -38,6 +38,10 @@ struct ContentView: View {
                         } // VGrid
                         .padding(15)
                         
+                        TitleView(title: "Brands")
+                        
+                        BrandGridView()
+                        
                         FooterView()
                             .padding(.horizontal)
                     } // VStack
