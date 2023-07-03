@@ -50,6 +50,7 @@
 		DF44D3082A531ED800889106 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF44D3052A531ED700889106 /* sound-rise.mp3 */; };
 		DF44D3092A531ED800889106 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF44D3062A531ED800889106 /* sound-ding.mp3 */; };
 		DF44D30A2A531ED800889106 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF44D3072A531ED800889106 /* sound-tap.mp3 */; };
+		DF44D3172A532A9200889106 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44D3162A532A9200889106 /* Constant.swift */; };
 		DF4744C12A468DDD004000BC /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C02A468DDD004000BC /* CircleGroupView.swift */; };
 		DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C22A4704CE004000BC /* AudioPlayer.swift */; };
 		DF4744CB2A476673004000BC /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744CA2A476673004000BC /* PinchApp.swift */; };
@@ -220,6 +221,7 @@
 		DF44D3062A531ED800889106 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		DF44D3072A531ED800889106 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		DF44D3112A531F8600889106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DF44D3162A532A9200889106 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DF4744C02A468DDD004000BC /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		DF4744C22A4704CE004000BC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DF4744C82A476673004000BC /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -547,6 +549,7 @@
 		DF44D30E2A531F0400889106 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				DF44D3162A532A9200889106 /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -1345,6 +1348,7 @@
 			files = (
 				DF44D2FE2A531DE700889106 /* Persistence.swift in Sources */,
 				DF44D2F72A531DE500889106 /* ContentView.swift in Sources */,
+				DF44D3172A532A9200889106 /* Constant.swift in Sources */,
 				DF44D3012A531DE700889106 /* Devote.xcdatamodeld in Sources */,
 				DF44D2F52A531DE500889106 /* DevoteApp.swift in Sources */,
 			);
