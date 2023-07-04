@@ -60,47 +60,54 @@ struct ContentView: View {
     // MARK: - Body
     var body: some View {
         NavigationView {
-            VStack {
-                VStack(spacing: 16) {
-                    TextField("New Task", text: $task)
+            ZStack {
+                VStack {
+                    VStack(spacing: 16) {
+                        TextField("New Task", text: $task)
+                            .padding()
+                            .background(
+                                Color(.systemGray6)
+                            )
+                            .cornerRadius(10)
+                        
+                        Button {
+                            addItem()
+                        } label: {
+                            Spacer()
+                            Text("Save")
+                            Spacer()
+                        }
+                        .disabled(isButtonDisabled)
                         .padding()
+                        .font(.headline)
+                        .foregroundColor(.white)
                         .background(
-                            Color(.systemGray6)
+                            isButtonDisabled ? Color.gray : Color.pink
                         )
                         .cornerRadius(10)
-                    
-                    Button {
-                        addItem()
-                    } label: {
-                        Spacer()
-                        Text("Save")
-                        Spacer()
                     }
-                    .disabled(isButtonDisabled)
                     .padding()
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .background(
-                        isButtonDisabled ? Color.gray : Color.pink
-                    )
-                    .cornerRadius(10)
-                }
-                .padding()
-                
-                List {
-                    ForEach(items) { item in
-                        VStack(alignment: .leading) {
-                            Text(item.task ?? "")
-                                .font(.headline)
-                                .fontWeight(.bold)
-                            Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                                .font(.footnote)
-                                .foregroundColor(.gray)
+                    
+                    List {
+                        ForEach(items) { item in
+                            VStack(alignment: .leading) {
+                                Text(item.task ?? "")
+                                    .font(.headline)
+                                    .fontWeight(.bold)
+                                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                                    .font(.footnote)
+                                    .foregroundColor(.gray)
+                            }
                         }
-                    }
-                    .onDelete(perform: deleteItems)
-                } // List
-            } // VStack
+                        .onDelete(perform: deleteItems)
+                    } // List
+                    .listStyle(.insetGrouped)
+                    .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.3), radius: 12)
+                    .padding(.vertical, .zero)
+                    .frame(maxWidth: 640)
+                    .scrollContentBackground(.hidden)
+                } // VStack
+            } // ZStack
             .navigationBarTitle("Daily Tasks", displayMode: .large)
             .toolbar {
                 #if os(iOS)
@@ -109,7 +116,14 @@ struct ContentView: View {
                 }
                 #endif
             } // Toolbar
+            .background(
+                BackgroundImageView()
+            )
+            .background(
+                backgroundGradient.ignoresSafeArea(.all)
+            )
         } // Navigation
+        .navigationViewStyle(.stack)
     }
 }
 
