@@ -53,6 +53,8 @@
 		DF44D3172A532A9200889106 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44D3162A532A9200889106 /* Constant.swift */; };
 		DF44D3192A546AF200889106 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44D3182A546AF200889106 /* HideKeyboardExtension.swift */; };
 		DF44D31B2A546E6200889106 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44D31A2A546E6200889106 /* BackgroundImageView.swift */; };
+		DF44D31D2A546F4900889106 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44D31C2A546F4900889106 /* NewTaskItemView.swift */; };
+		DF44D31F2A5473D600889106 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44D31E2A5473D600889106 /* BlankView.swift */; };
 		DF4744C12A468DDD004000BC /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C02A468DDD004000BC /* CircleGroupView.swift */; };
 		DF4744C32A4704CE004000BC /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744C22A4704CE004000BC /* AudioPlayer.swift */; };
 		DF4744CB2A476673004000BC /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4744CA2A476673004000BC /* PinchApp.swift */; };
@@ -226,6 +228,8 @@
 		DF44D3162A532A9200889106 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		DF44D3182A546AF200889106 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		DF44D31A2A546E6200889106 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		DF44D31C2A546F4900889106 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		DF44D31E2A5473D600889106 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		DF4744C02A468DDD004000BC /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		DF4744C22A4704CE004000BC /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DF4744C82A476673004000BC /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -540,6 +544,8 @@
 			children = (
 				DF44D2F62A531DE500889106 /* ContentView.swift */,
 				DF44D31A2A546E6200889106 /* BackgroundImageView.swift */,
+				DF44D31C2A546F4900889106 /* NewTaskItemView.swift */,
+				DF44D31E2A5473D600889106 /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1356,9 +1362,11 @@
 				DF44D31B2A546E6200889106 /* BackgroundImageView.swift in Sources */,
 				DF44D2F72A531DE500889106 /* ContentView.swift in Sources */,
 				DF44D3192A546AF200889106 /* HideKeyboardExtension.swift in Sources */,
+				DF44D31F2A5473D600889106 /* BlankView.swift in Sources */,
 				DF44D3172A532A9200889106 /* Constant.swift in Sources */,
 				DF44D3012A531DE700889106 /* Devote.xcdatamodeld in Sources */,
 				DF44D2F52A531DE500889106 /* DevoteApp.swift in Sources */,
+				DF44D31D2A546F4900889106 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
